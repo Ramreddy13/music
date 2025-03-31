@@ -95,7 +95,7 @@ export default {
           async () => {
             const song = {
               uid: auth.currentUser.uid,
-              display_name: auth.currentUser.display_name,
+              display_name: auth.currentUser.displayName || null,
               original_name: task.snapshot.ref.name,
               modified_name: task.snapshot.ref.name,
               genre: "",
