@@ -53,7 +53,7 @@ export default {
   data() {
     return {
       songs: [],
-      maxlimit: 3,
+      maxlimit: 5,
       pendingReq: false,
     };
   },
